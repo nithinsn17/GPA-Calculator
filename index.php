@@ -1,8 +1,4 @@
-<?php
-// session_start();
-?>
-
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,36 +11,26 @@
 <body>
   <a href="https://bmsce.ac.in/" target="_blank"><img src="img/header.png" alt="logo"></a>
   <p style="background-image:url('img/bmsce.jpeg');">
-  <div class="blue"><TT>EXAM GRADE POINT CALCULATOR</TT></div>
-  <form action="login.php" method="post">
-    <div id="content">
-      <div class="imgcontainer">
-        <img src="img/student.svg" alt="Avatar" class="avatar">
+    <div class="blue"><TT>EXAM GRADE POINT CALCULATOR</TT></div>
+    <form action="login.php" method="post">
+      <div id="content">
+        <div class="imgcontainer">
+          <img src="img/student.svg" alt="Avatar" class="avatar">
+        </div>
+        <div>
+          <label style="color:black"><b>Email </b>
+            <input type="email" placeholder="Enter your BMSCE email id" name="userName" pattern="[a-zA-Z0-9+_.]+@bmsce.ac.in" required>
+          </label>
+          <label style="color:black"><b>Password</b>
+            <input type="password" placeholder="Enter Password" name="password" minlength="8" required>
+          </label>
+          <button type="submit">Sign In/Sign Up</button>
+        </div>
       </div>
-      <div>
-        <label style="color:black"><b>Email </b>
-          <input type="email" placeholder="Enter your bmsce mail id" name="userName" pattern="[a-zA-Z0-9+_.]+@bmsce.ac.in" required></label>
-        <label style="color:black"><b>Password</b>
-          <input type="password" placeholder="Enter Password" name="password" minlength="8" required></label>
-
-
-
-
-
-
-
-
-
-          
-        <!-- <input type="checkbox" checked="checked" name="remember"> Remember me -->
-        <button type="submit">SignIn/SignUp</button>
-        <!-- <span><a href='signUp.php' style="color:blue">Sign up</a></span> -->
-        <!-- <span class="psw"><a href='forgotPassword.php' style="color:blue">Forgot password?<br></a> -->
-        </span>
-      </div>
-    </div>
-  </form>
+    </form>
   </p>
+  
+
   <footer id="footer">
     <p class="about">B.M.S. College of Engineering (BMSCE) was Founded in the year 1946 by Late Sri. B. M. Sreenivasaiah
       a great visionary and philanthropist and nurtured by his illustrious son Late Sri. B. S. Narayan. BMSCE is the
