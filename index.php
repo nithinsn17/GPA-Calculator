@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 ?>
 
 <!DOCTYPE html>
@@ -11,20 +11,6 @@ session_start();
   <link rel="stylesheet" href="css/index.css">
   <script src="https://kit.fontawesome.com/0059d2346d.js" crossorigin="anonymous"></script>
 </head>
-
-<?php
-if (isset($_GET['error'])) {
-  if ($_GET['error'] === 'logout') {
-    echo '<script>
-            alert("Logged out successfully!");
-            </script>';
-  } else if ($_GET['error'] === 'userNotExists') {
-    echo '<script>
-            alert("Invalid Username or Password!");
-            </script>';
-  }
-}
-?>
 
 <body>
   <a href="https://bmsce.ac.in/" target="_blank"><img src="img/header.png" alt="logo"></a>
@@ -40,6 +26,16 @@ if (isset($_GET['error'])) {
           <input type="email" placeholder="Enter your bmsce mail id" name="userName" pattern="[a-zA-Z0-9+_.]+@bmsce.ac.in" required></label>
         <label style="color:black"><b>Password</b>
           <input type="password" placeholder="Enter Password" name="password" minlength="8" required></label>
+
+
+
+
+
+
+
+
+
+          
         <!-- <input type="checkbox" checked="checked" name="remember"> Remember me -->
         <button type="submit">SignIn/SignUp</button>
         <!-- <span><a href='signUp.php' style="color:blue">Sign up</a></span> -->
