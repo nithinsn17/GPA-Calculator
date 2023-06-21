@@ -24,7 +24,7 @@
                     alert("New password has been sent to your email.");
                 }
             </script>
-            <a href='admin_index.html'>Are you an admin?</a></span>
+            <a href='admin_index.php'>Are you an admin?</a></span>
         </div>
     </form>
     <footer id="footer">

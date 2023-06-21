@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,19 +20,16 @@
                 <input type="text" placeholder="Enter Name" name="uname" required></label>
             <div class="form-control">
                 <label><b>Email</b>
-                    <input type="text" placeholder="Enter Email Id" pattern="[a-zA-Z0-9+_.]+@bmsce.ac.in" name="mail"
-                        title="Enter college id (eg:john.cs19@bmsce.ac.in)" required></label>
+                    <input type="text" placeholder="Enter Email Id" pattern="[a-zA-Z0-9+_.]+@bmsce.ac.in" name="mail" title="Enter college id (eg:john.cs19@bmsce.ac.in)" required></label>
             </div>
             <div class="form-control">
                 <label><b>Usn</b>
-                    <input type="text" placeholder="Enter Usn(eg:1BM21CS121)" pattern="1BM[0-9]{2}CS[0-9]{3}" name="usn"
-                        required></label>
+                    <input type="text" placeholder="Enter Usn(eg:1BM21CS121)" pattern="1BM[0-9]{2}CS[0-9]{3}" name="usn" required></label>
             </div>
             <br>
             <div class="form-control">
                 <label><b>Mobile Number</b>
-                    <input type="text" placeholder="Enter Mobile Number" pattern="[0-9]{10}" name="unum"
-                        title="It shld have 10 digits " required></label>
+                    <input type="text" placeholder="Enter Mobile Number" pattern="[0-9]{10}" name="unum" title="It shld have 10 digits " required></label>
                 <small></small>
             </div>
             <br>
@@ -41,8 +39,7 @@
             <fieldset>
                 <div class="form-control">
                     <label><b>Password</b>
-                        <input type="password" placeholder="Enter Password" name="password1" minlength="8"
-                            required></label>
+                        <input type="password" placeholder="Enter Password" name="password1" minlength="8" required></label>
                 </div>
                 <br>
                 <div class="form-control">
@@ -65,8 +62,7 @@
         <p class="about">B.M.S. College of Engineering (BMSCE) was Founded in the year 1946 by Late Sri. B. M.
             Sreenivasaiah a great visionary and philanthropist and nurtured by his illustrious son Late Sri. B. S.
             Narayan. BMSCE is the first private sector initiative in engineering education in India. BMSCE has completed
-            70+ years of dedicated service in the field of Engineering Education. <a
-                href="https://bmsce.ac.in/home/About-BMSCE">Know More</a></p>
+            70+ years of dedicated service in the field of Engineering Education. <a href="https://bmsce.ac.in/home/About-BMSCE">Know More</a></p>
         <h3>Contact Us</h3>
         <ul class="contact-us">
             <li><strong>Address:</strong>
